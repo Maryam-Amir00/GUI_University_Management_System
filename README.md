@@ -39,7 +39,7 @@ The project is organized into several components:
    mkdir build
    cd build
    cmake ..
-   make
+   cmake --build .
    ```
 5. Run the executable generated in the `build` directory
 
