@@ -4,11 +4,28 @@
 This project is a GUI-based University Management System implemented in C++ using the Qt framework. It provides functionality for managing students, teachers, and administrative tasks within a university setting.
 
 ## Features
-- Student management (add, remove, update, view)
-- Teacher management (add, remove, update, view)
-- Admin authentication
-- Record checking and information retrieval
-- User-friendly graphical interface
+The system is divided into three main sections:
+
+### 1. Admin Section
+- Student management:
+  - Add student
+  - Remove student
+  - Update student information
+  - Check student records
+- Teacher management:
+  - Add teacher
+  - Remove teacher
+  - Update teacher information
+  - Check teacher records
+- Log out functionality
+
+### 2. Student Section
+- Check information: Allows students to view their information using their roll number
+- Check existence: Verifies if a student exists in the records
+
+### 3. Teacher Section
+- Check information: Allows teachers to view their information using their ID
+- Check existence: Verifies if a teacher exists in the records
 
 ## Project Structure
 The project is organized into several components:
@@ -39,10 +56,11 @@ The project is organized into several components:
    mkdir build
    cd build
    cmake ..
-   cmake --build .
+   make
    ```
 5. Run the executable generated in the `build` directory
 
 ## Contributing
 Contributions to improve the University Management System are welcome. Please feel free to fork the repository, make changes, and submit a pull request.
+
 
