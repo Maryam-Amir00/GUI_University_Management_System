@@ -19,11 +19,9 @@ void studentauthenticate::on_pushButton_clicked()
 {
     QString studentInput = ui->usernameLineEdit->text(); // Get the username from a QLineEdit
     QString passInput = ui->passwordLineEdit->text(); // Get the password from a QLineEdit
-    bool authenticated = false;
 
     try {
         if (studentInput == "student" && passInput == "1234") {
-            authenticated = true;
             ptrstudent->show(); // Show the student dialog if authenticated
         }
         else {
