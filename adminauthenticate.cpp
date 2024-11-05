@@ -22,11 +22,9 @@ void adminauthenticate::on_pushButton_clicked()
 {
     QString adminInput = ui->usernameLineEdit->text(); // Get the username from a QLineEdit
     QString passInput = ui->passwordLineEdit->text(); // Get the password from a QLineEdit
-    bool authenticated = false;
 
     try {
         if (adminInput == "admin" && passInput == "1234") {
-            authenticated = true;
             ptradmin->show(); // Show the admin dialog if authenticated
         }
         else {
