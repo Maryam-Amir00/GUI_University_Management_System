@@ -62,5 +62,3 @@ The project is organized into several components:
 
 ## Contributing
 Contributions to improve the University Management System are welcome. Please feel free to fork the repository, make changes, and submit a pull request.
-
-
